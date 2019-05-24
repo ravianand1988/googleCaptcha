@@ -1,0 +1,24 @@
+{
+  "name": "googlecpatcha",
+  "version": "1.0.0",
+  "description": "A website to explore google captcha and prevent bots with express and nodejs!!",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "captcha",
+    "express",
+    "nodejs",
+    "googleCaptcha"
+  ],
+  "author": "Ravi Anand",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "body-parser": "^1.19.0",
+    "ejs": "^2.6.1",
+    "express": "^4.17.0",
+    "request": "^2.88.0"
+  }
+}

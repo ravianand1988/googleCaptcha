@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Google Checkbox Recaptcha V2 Sample</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="container"><br />
+        <h1>Google Checkbox Recaptcha V2 Sample</h1><br />
+        <form action="/captcha" method="post">
+            <div class="row">
+                <div class="col-md-4"></div>
+                <div class="form-group col-md-4">
+                    <label for="name">your Name:</label>
+                    <input type="text" class="form-control" name="name">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4"></div>
+                <div class="form-group col-md-4">
+                    <div class="g-recaptcha" data-sitekey="6Lc2GKUUAAAAAA4axto4R6_8MJJ1qAe7rELvHkox"></div>
+                </div>
+            </div>
+    </div>
+    <div class="row">
+        <div class="col-md-4"></div>
+        <div class="form-group col-md-4">
+            <button type="submit" class="btn btn-success">Send</button>
+        </div>
+    </div>
+    </form>
+    <div class="text-center">
+        <a href="/recpatcha">
+            <h2>Test Invisible recaptcha</h2>
+        </a>>
+    </div>
+    </div>
+    <script src='https://www.google.com/recaptcha/api.js'></script>
+</body>
+
+</html>
